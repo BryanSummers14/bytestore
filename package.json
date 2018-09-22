@@ -1,0 +1,25 @@
+{
+  "name": "bytestore",
+  "version": "1.0.0",
+  "author": "Jason Miller <jason@developit.ca>",
+  "description": "This is a forked version of unistore, stripped and reworked for strictly vanilla js/jQuery applications",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "microbundle -o=dist && bundlewatch"
+  },
+  "keywords": [],
+  "license": "MIT",
+  "devDependencies": {
+    "bundlewatch": "^0.2.1",
+    "microbundle": "^0.6.0"
+  },
+  "bundlewatch": [
+    {
+      "path": "dist/bytestore.umd.js",
+      "maxSize": "500b"
+    }
+  ],
+  "contributors": [
+    "Brian Summers <briansummers14@gmail.com>"
+  ]
+}
