@@ -16,10 +16,11 @@
   "bundlewatch": [
     {
       "path": "dist/bytestore.umd.js",
-      "maxSize": "500b"
+      "maxSize": "475b"
     }
   ],
   "contributors": [
     "Brian Summers <briansummers14@gmail.com>"
-  ]
+  ],
+  "dependencies": {}
 }
